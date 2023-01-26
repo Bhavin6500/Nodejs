@@ -1,0 +1,41 @@
+<!-- http://api.openweathermap.org/geo/1.0/direct?q=Jetpur&appid=7f3e67361a24fbcfb5418e94879f41ef
+
+7f3e67361a24fbcfb5418e94879f41ef -->
+
+<html>
+    <title></title>
+    <header></header>
+<body>
+<div class="info">
+    <div class="location">pune,In</div>
+    <p id="date">Wed | OCT 23 | 10:49AM</p>
+    <h1 class="temp">26.49 c</h1>
+
+</div>
+<script>
+    const curdate=document.getElementById('date');
+    let weathercon=document.getElementById("weathercon");
+    const tempstatus="clouds";
+    const getCurrentDay=()=>{
+var weekday= new Array(7);
+ weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+let currentTime=new Date();
+        console.log(weekday[currentTime.getDay()]);
+
+    };
+    const getCurrentTime=()=>{
+        var now=new Date();
+        var month=currentTime.getMonth()+1;
+        var day=currentTime.getDate();
+        var Year=currentTime.getFullYear();
+        console.log(month+"/"+day);
+    };
+    getCurrentDat();
+</script>
+
+
+
+
+
+</body>
+</html>

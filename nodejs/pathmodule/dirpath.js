@@ -1,0 +1,5 @@
+const path=require('path')
+console.log(path.dirname('D:/nodejs/pathmodule'))
+console.log(path.extname('D:/nodejs/pathmodule/dirpath.js'))
+console.log(path.parse("D:/nodejs/pathmodule"))
+console.log(path.basename("D:/nodejs/pathmodule"))
